@@ -1,0 +1,18 @@
+.footer{
+    /*position: absolute;*/
+    margin-bottom: 10px;
+    height: 5vh;
+    min-height: 35px;
+    width:100%;
+    background-color: #3FD2C7;
+
+    text-align: right;
+}
+.footer p{
+    margin-right: 20px;
+    margin-top: 0;
+    padding-top: 20px;
+    position: relative;
+    bottom: 10px;
+    color: antiquewhite;
+}
