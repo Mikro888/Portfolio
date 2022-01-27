@@ -1,18 +1,20 @@
-.content{
+.content {
     background-color: #99DDFF;
     width: 100%;
     height: 100%;
-    color:white;
+    color: white;
     display: flex;
     flex-direction: column;
 }
-.main{
+
+.main {
     min-height: 500px;
     justify-content: space-around;
 }
-.description{
+
+.description {
     width: 20%;
-    border:1px solid white;
+    border: 1px solid white;
     height: 60px;
     min-width: 250px;
     text-align: center;
@@ -22,7 +24,8 @@
 
 
 }
-.mainCon{
+
+.mainCon {
     display: flex;
     /*margin-top: 70px;*/
     justify-content: space-around;
@@ -32,8 +35,9 @@
 
 
 }
-.card{
-    border:1px solid white;
+
+.card {
+    border: 1px solid white;
     width: 250px;
     height: 300px;
     background-color: white;
@@ -42,7 +46,8 @@
     /*margin-top: 75px;*/
 
 }
-.skills{
+
+.skills {
     min-height: 300px;
     display: flex;
     justify-content: space-around;
@@ -50,12 +55,14 @@
     flex-wrap: wrap;
     text-align: center;
 }
-.skills h2{
+
+.skills h2 {
     width: 100%;
     align-self: center;
 
 }
-.projects{
+
+.projects {
     min-height: 300px;
     display: flex;
     justify-content: space-around;
@@ -63,48 +70,72 @@
     flex-wrap: wrap;
     text-align: center;
 }
-.projects h2{
+
+.projects h2 {
     width: 100%;
     align-self: center;
 
 }
-.skillCon{
-    min-height:200px;
+
+.skillCon {
+    min-height: 200px;
     width: 200px;
     text-align: center;
-    border:1px solid white;
+    border: 1px solid white;
     margin: 20px;
     padding: 5px;
 
 }
-.skillImage{
+
+.skillImage {
     margin: 5px auto;
     height: 50px;
     width: 50px;
+    border-radius: 3px;
+    border: 2px solid white;
     background-color: white;
-    opacity: 0.2;
 }
-.skillName{
+
+.skillImage img {
+    max-width: 100%;
+    max-height: 100%;
+
+}
+
+.skillName {
     padding: 10px;
 }
-.formContainer{
 
-    width:300px;
-    height:200px;
-
+.skillName a {
+    all: unset;
+    transition: all .4s ease-in-out;
 }
-.formContainer input{
+
+.skillName a:hover {
+    color: #00458B;
+    cursor: pointer;
+}
+
+.formContainer {
+
+    width: 300px;
+    height: 200px;
+}
+
+.formContainer input {
     display: block;
     width: 90%;
     margin: 5px auto;
 }
 
-.formContainer textarea{
+.formContainer textarea {
     width: 90%;
 }
+
 .contacts
+
 @media (max-width: 700px) {
-    .content  {
+    .content {
         width: 100%;
     }
 }

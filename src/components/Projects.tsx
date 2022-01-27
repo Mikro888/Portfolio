@@ -7,9 +7,9 @@ const Projects = () => {
     return (
         <div className={classes.skills} id={'projects'}>
             <h2>Projects</h2>
-            <Project name={'Social Network'}/>
+            <Project name={'Social Network'} href={'https://mikro888.github.io/Social-Network/'}/>
             <Project name={'To Do List'}/>
-            <Project name={'SkillReal'}/>
+            <Project name={'SkillReal'} href={'http://www.skillreal.ru/index.html'}/>
         </div>
     );
 }

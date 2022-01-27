@@ -11,7 +11,9 @@ const Skill = (props:any) => {
 
     return (<>
  <div className={classes.skillCon}>
-     <div className={classes.skillImage}></div>
+     <div className={classes.skillImage}>
+         <img  src={props.src}/>
+     </div>
      <div className={classes.skillName}><h3>{props.name}</h3></div>
      <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
          Incidunt non quam tempora. Assumenda consequuntur doloremque

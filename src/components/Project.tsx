@@ -11,7 +11,9 @@ const Project = (props:any) => {
 
     return (<>
  <div className={classes.skillCon}>
-     <div className={classes.skillName}><h3>{props.name}</h3></div>
+     <div className={classes.skillName}>
+         <a href={props.href}><h3>{props.name}</h3></a>
+     </div>
      <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
          Incidunt non quam tempora. Assumenda consequuntur doloremque
        </div>
