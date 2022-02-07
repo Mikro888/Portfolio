@@ -4,34 +4,48 @@
     flex-direction: column;
     margin-top: 90px;
 
+
 }
 
 .nav a {
     color: white;
+    color: #00376E;
     text-decoration: none;
     display: block;
-    margin: 0;
+    margin: 5px 0;
     padding: 10px;
     transition: background-color 600ms;
     border-radius: 14px 0 0 14px;
     font-family: monospace;
     font-weight: bolder;
     font-size: 18px;
-}
-
-
-.nav a:first-of-type {
-    margin-top: 10px;
     position: sticky;
-    top:0;
+
 
 }
+
+.navContainer {
+    margin-top: 10px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+}
+
+/*.nav a:first-of-type {*/
+/*    margin-top: 10px;*/
+/*    top: 20px;*/
+/*}*/
+
 
 .active {
     background-color: #99DDFF;
 }
 
 @media (max-width: 700px) {
+    .navContainer {
+        display: flex;
+    }
+
     .nav {
         flex-direction: row;
         /*border: 1px solid white;*/
@@ -41,7 +55,6 @@
         justify-content: space-between;
         position: absolute;
         bottom: 0;
-
     }
 
 
@@ -51,7 +64,7 @@
         border-radius: 14px 14px 0 0;
         margin: 20px 0 0 0;
         font-size: 15px;
-      
+        color: white;
     }
 
 }

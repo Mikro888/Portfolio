@@ -1,6 +1,6 @@
 import React from 'react';
 import classes from './Ava.module.css'
-import face from '../pic/face.png'
+import face from '../images/face.png'
 
 
 

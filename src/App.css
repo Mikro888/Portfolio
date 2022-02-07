@@ -8,6 +8,13 @@ body {
     padding: 0;
 
 }
+h2{
+    text-transform: uppercase!important;
+    font-family: "Poppins",sans-serif;
+    src: url('../src/Fonts/Poppins-Regular.ttf');
+    margin:50px 0 90px 0;
+    font-size: 40px;
+}
 
 .App {
     display: flex;
