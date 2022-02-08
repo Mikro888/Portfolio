@@ -27,6 +27,7 @@ function App() {
     return (
         <BrowserRouter>
             <div className={'mainContainer'}>
+               <div className={'switchButton'}></div>
                 <Header state={state} activeClass={activeClass} setActiveClass={setActiveClass}/>
                 <div className={'App'}>
                     <Sidebar state={state} activeClass={activeClass} setActiveClass={setActiveClass}/>

@@ -19,7 +19,6 @@ const Nav = (props: headerPropsType) => {
         }))
     }
 
-
     return (<>
         <div className={classes.nav}>
             <div className={classes.navContainer}>
@@ -29,7 +28,6 @@ const Nav = (props: headerPropsType) => {
                           to={el.name.toLowerCase()}
                           onClick={() => selectLink(el.id)} spy={true}
                           smooth={true}>{el.name} </Link>)
-
             })}
             </div>
         </div>

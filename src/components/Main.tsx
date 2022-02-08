@@ -5,6 +5,7 @@ import classes from './Content.module.css'
 const Main=()=> {
     return (
         <div className={classes.main} id={'main'}>
+    <div className={classes.switchButton}></div>
 <div className={classes.mainCon}>
             <div className={classes.description}>
                 <div>Mikhail Romanov</div>
