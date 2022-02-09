@@ -4,7 +4,7 @@ import classes from './Content.module.css'
 
 const Contacts=()=> {
     return (
-        <div className={classes.skills} id="contact">
+        <div className={classes.skills} id="contacts">
 <h2>Contacts</h2>
             <div className={classes.formContainer}>
                 <form action="">

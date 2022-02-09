@@ -1,4 +1,4 @@
-.header{
+.header {
     padding: 0;
     height: 10vh;
     max-height: 80px;
@@ -6,14 +6,15 @@
     width: 100%;
     background-color: #00458B;
     position: relative;
-
+    transition: background-color 700ms;
 }
-.header h1{
+
+.header h1 {
     margin: 0;
 }
 
 @media (min-width: 700px) {
-    .hamburger  {
+    .hamburger {
         display: none;
     }
 }

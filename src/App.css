@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color: #00458B;
+
     margin: 0;
     padding: 0;
 
@@ -18,10 +18,34 @@ h2{
 
 .App {
     display: flex;
-    /*height: 85vh;*/
+
 }
 .mainContainer{
     width: 90%;
     margin: 0 auto;
     min-width: 330px;
+}
+.bodyColor{
+    background-color:  #e76f51;
+    transition: background-color 700ms;
+}
+.coldBodyColor{
+    margin: 0;
+    padding: 0;
+    background-color:  #e76f51;
+    width: 100%;
+    transition: background-color 700ms;
+}
+.warmBodyColor{
+    margin: 0;
+    padding: 0;
+    background-color:  #00458B;
+    width: 100%;
+    transition: background-color 700ms;
+}
+
+
+.mainContainer{
+    border-top-left-radius: 10px;
+    background-color: black;
 }

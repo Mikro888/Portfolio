@@ -1,7 +1,8 @@
 import React from 'react';
 import classes from './Header.module.css'
-import Nav from "./Nav";
+
 import {stateType} from "../App";
+import {Nav} from "./Nav";
 
 export type headerPropsType = {
     state: stateType
@@ -9,11 +10,11 @@ export type headerPropsType = {
     setActiveClass: (Array: stateType) => void
 }
 
-const Header = (props: headerPropsType) => {
+const Header = (props: any) => {
     return (
-        <div className={classes.header}>
+        <div className={classes.header} style={props.headerColor}>
             <div className={classes.hamburger}>
-                <Nav state={props.state} activeClass={props.activeClass} setActiveClass={props.setActiveClass}/>
+                <Nav state={props.state} activeClass={props.activeClass} setActiveClass={props.setActiveClass} mainColor={props.mainColor}/>
             </div>
         </div>
     );

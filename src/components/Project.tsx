@@ -1,13 +1,8 @@
-import React, {useState} from 'react';
+import React  from 'react';
 import classes from './Content.module.css';
-import {NavLink} from "react-router-dom";
-import {buttonType} from "../App";
-import {headerPropsType} from "./Header";
-import Scroll, {Link} from 'react-scroll'
 
 
 const Project = (props: any) => {
-
     return (<>
     <a href={props.href}>
         <div className={classes.skillCon + ' ' + classes.projectCon}>

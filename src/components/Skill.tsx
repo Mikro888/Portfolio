@@ -28,7 +28,6 @@ const Skill = (props: any) => {
                                                  backgroundColor: "#3e98c7",
                                                  pathColor: "hsla(100, 100%, 100%, 0.85)",
                                                  trailColor: "transparent"
-
                                              })}>
                 {/* Put any JSX content in here that you'd like. It'll be vertically and horizonally centered. */}
                 <img

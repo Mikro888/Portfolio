@@ -6,11 +6,11 @@ import Projects from "./Projects";
 import Contacts from "./Contacts";
 
 
-const Content = () => {
+const Content = (props:any) => {
     return (
-        <div className={classes.content}>
+        <div className={classes.content} style={props.contentColor}>
 
-            <Main />
+            <Main handleChange={props.handleChange} />
             <Skills/>
             <Projects/>
             <Contacts />

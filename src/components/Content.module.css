@@ -5,6 +5,7 @@
     color: #00376E;
     display: flex;
     flex-direction: column;
+    transition: background-color 700ms;
 }
 
 .main {
@@ -14,6 +15,7 @@
     border-bottom:2px solid rgba(255, 255, 255,0.7);
     /*border-radius: 8px;*/
     margin: 10px;
+
 }
 
 .description {
@@ -39,21 +41,14 @@
 
 }
 .switchButton{
-    width:60px;
+    width:90px;
     height: 30px;
-    border: 1px solid white;
-    border-radius: 16px;
     margin-left: auto;
     margin-right: 0;
+    font-size: 10px;
+    text-align: right;
 }
-.switchButton::after{
-    content:'';
-    width:30px;
-    height: 30px;
-    border-radius: 50%;
-    background-color: papayawhip;
 
-}
 a {
     color: white;
     text-decoration: none;
@@ -114,7 +109,9 @@ a {
     text-align: center;
     border:2px solid rgba(255, 255, 255,0.7);
     margin: 20px;
-    background-color: #00458B;
+
+    background-color: rgba(0,0,0,0.8);
+
 }
 
 .skillCon h3 {
@@ -135,7 +132,8 @@ a {
 
 .projectCon:after {
     background-color: #99DDFF;
-    opacity: 0.2;
+    background-color: black;
+    opacity: 0.1;
     content: '';
     position: absolute;
     top: 0;
