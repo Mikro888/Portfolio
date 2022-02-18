@@ -1,6 +1,11 @@
 import React from 'react';
 import classes from './Content.module.css'
 import { Switch} from "@mui/material";
+import mainImage from '../images/mainImage.png'
+
+
+
+
 
 
 const Main=(props:any)=> {
@@ -15,7 +20,9 @@ const Main=(props:any)=> {
                 <div>Mikhail Romanov</div>
                 <div>Front end developer</div>
             </div>
-            <div className={classes.card}>card</div>
+            <div className={classes.card}>
+                <img src={mainImage} alt=""/>
+            </div>
 </div>
         </div>
     );

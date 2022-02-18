@@ -10,15 +10,6 @@ import 'react-circular-progressbar/dist/styles.css';
 const Skill = (props: any) => {
 
     return (<>
-        {/*<div className={classes.skillCon}>*/}
-        {/*    <div className={classes.skillName}><h3>{props.name}</h3></div>*/}
-        {/*    <div className={classes.skillImage}>*/}
-        {/*        <img src={props.src}/>*/}
-        {/*    </div>*/}
-        {/*    <div className={classes.skillDescription}>Lorem ipsum dolor sit*/}
-        {/*        amet, consectetur adipisicing elit.*/}
-        {/*        Incidunt non quam tempora. Assumenda consequuntur doloremque*/}
-        {/*    </div>*/}
         <div style={{width: '130px', borderRadius: '50%', margin: '10px'}}>
             <CircularProgressbarWithChildren value={props.value} background
                                              backgroundPadding={3}
