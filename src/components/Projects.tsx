@@ -5,6 +5,7 @@ import socialImage from '../images/social.jpg'
 import todoImage
     from '../images/ЕВ.jpeg'
 import skillRealImage from '../images/UNADJUSTEDNONRAW_thumb_54d.jpg'
+import rgbImage from '../images/rgb.jpg'
 
 
 
@@ -18,6 +19,9 @@ const Projects = () => {
     }
     const skillReal = {
         backgroundImage: `url(${skillRealImage})`
+    }
+    const guessImage = {
+        backgroundImage:`url(${rgbImage})`
     }
 
     return (
@@ -34,7 +38,7 @@ const Projects = () => {
                      style={skillReal}
                      href={'http://www.skillreal.ru/index.html'}/>
             <Project name={'JS Game'}
-                     style={skillReal}
+                     style={guessImage}
                      href={'https://mikro888.github.io/guessRGB/'}/>
         </div>
     );
