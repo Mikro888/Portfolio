@@ -60,6 +60,7 @@ function App() {
     const [activeClass, setActiveClass] = useState(state)
     return (
         <BrowserRouter>
+
             <div className={initialColor.bodyColor}>
                 <div className={'mainContainer'}>
                     <Header state={state} activeClass={activeClass}

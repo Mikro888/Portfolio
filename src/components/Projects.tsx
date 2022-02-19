@@ -7,6 +7,7 @@ import todoImage
 import skillRealImage from '../images/UNADJUSTEDNONRAW_thumb_54d.jpg'
 
 
+
 const Projects = () => {
     const socialNetwork = {
         backgroundImage: `url(${socialImage})`
@@ -32,6 +33,9 @@ const Projects = () => {
             <Project name={'SkillReal'}
                      style={skillReal}
                      href={'http://www.skillreal.ru/index.html'}/>
+            <Project name={'JS Game'}
+                     style={skillReal}
+                     href={'https://mikro888.github.io/guessRGB/'}/>
         </div>
     );
 }
