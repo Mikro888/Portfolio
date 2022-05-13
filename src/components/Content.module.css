@@ -65,9 +65,9 @@ a {
     /*margin-top: 75px;*/
 }
 .card img{
-    width:110%;
+    width:100%;
     position: relative;
-    bottom:130px;
+    /*bottom:130px;*/
 }
 
 .skills {
