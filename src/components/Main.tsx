@@ -1,7 +1,7 @@
 import React from 'react';
 import classes from './Content.module.css'
 import { Switch} from "@mui/material";
-import faceImage from '../images/face.png'
+import faceImage from '../images/mainImage.png'
 
 
 
