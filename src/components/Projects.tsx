@@ -32,21 +32,29 @@ const Projects = () => {
             <Project
                 style={socialNetwork}
                 name={'Social Network'}
-                href={'https://mikro888.github.io/Social-Network/'}/>
+                href={'https://mikro888.github.io/Social-Network/'}
+                description={'Social network React + Redux application with API'}
+            />
             <Project
                 style={todoList}
                 name={'To Do List'}
                 href={'https://mikro888.github.io/simpletodo/'}
+                description={'Simple todolist React application without API'}
             />
             <Project name={'SkillReal'}
                      style={skillReal}
-                     href={'http://www.skillreal.ru/index.html'}/>
+                     href={'http://www.skillreal.ru/index.html'}
+                     description={'My very first web site created with bootstrap'}
+            />
             <Project name={'JS Game'}
                      style={guessImage}
-                     href={'https://mikro888.github.io/guessRGB/'}/>
+                     href={'https://mikro888.github.io/guessRGB/'}
+                     description={'Guess RGB color game'}
+            />
             <Project name={'JS Snake'}
                      style={snake}
-                     href={'https://mikro888.github.io/snake/'}/>
+                     href={'https://mikro888.github.io/snake/'}
+                     description={'Classic snake game'}/>
         </div>
     );
 }

@@ -10,9 +10,7 @@ const Project = (props: any) => {
             <div className={classes.skillName}>
                <h3>{props.name}</h3>
             </div>
-            <div className={classes.skillDescription}>Lorem ipsum dolor sit
-                amet, consectetur adipisicing elit.
-                Incidunt non quam tempora. Assumenda consequuntur doloremque
+            <div className={classes.skillDescription}>{props.description}
             </div>
 
 
