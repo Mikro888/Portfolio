@@ -8,7 +8,6 @@ import skillRealImage from '../images/UNADJUSTEDNONRAW_thumb_54d.jpg'
 import rgbImage from '../images/rgb.jpg'
 
 
-
 const Projects = () => {
     const socialNetwork = {
         backgroundImage: `url(${socialImage})`
@@ -21,7 +20,7 @@ const Projects = () => {
         backgroundImage: `url(${skillRealImage})`
     }
     const guessImage = {
-        backgroundImage:`url(${rgbImage})`
+        backgroundImage: `url(${rgbImage})`
     }
 
     return (
@@ -33,7 +32,9 @@ const Projects = () => {
                 href={'https://mikro888.github.io/Social-Network/'}/>
             <Project
                 style={todoList}
-                name={'To Do List'}/>
+                name={'To Do List'}
+                href={'https://mikro888.github.io/simpletodo/'}
+            />
             <Project name={'SkillReal'}
                      style={skillReal}
                      href={'http://www.skillreal.ru/index.html'}/>
