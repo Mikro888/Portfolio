@@ -6,6 +6,7 @@ import todoImage
     from '../images/ЕВ.jpeg'
 import skillRealImage from '../images/UNADJUSTEDNONRAW_thumb_54d.jpg'
 import rgbImage from '../images/rgb.jpg'
+import snakeImage from '../images/istockphoto-1363586427-612x612.jpg'
 
 
 const Projects = () => {
@@ -22,7 +23,9 @@ const Projects = () => {
     const guessImage = {
         backgroundImage: `url(${rgbImage})`
     }
-
+    const snake = {
+        backgroundImage: `url(${snakeImage})`
+    }
     return (
         <div className={classes.skills} id={'projects'}>
             <h2>Projects</h2>
@@ -41,6 +44,9 @@ const Projects = () => {
             <Project name={'JS Game'}
                      style={guessImage}
                      href={'https://mikro888.github.io/guessRGB/'}/>
+            <Project name={'JS Snake'}
+                     style={snake}
+                     href={'https://mikro888.github.io/snake/'}/>
         </div>
     );
 }
