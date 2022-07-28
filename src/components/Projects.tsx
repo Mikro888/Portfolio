@@ -33,13 +33,13 @@ const Projects = () => {
                 style={socialNetwork}
                 name={'Social Network'}
                 href={'https://mikro888.github.io/Social-Network/'}
-                description={'Social network React + Redux application with API'}
+                description={'Social network React + Redux + Typescript application with API'}
             />
             <Project
                 style={todoList}
                 name={'To Do List'}
                 href={'https://mikro888.github.io/simpletodo/'}
-                description={'Simple todolist React application without API'}
+                description={'Simple todolist React + Typescript application without API'}
             />
             <Project name={'SkillReal'}
                      style={skillReal}
