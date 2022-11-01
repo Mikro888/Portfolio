@@ -2,8 +2,7 @@ import React from 'react';
 import classes from './Content.module.css'
 import Project from './Project'
 import socialImage from '../images/social.jpg'
-import todoImage
-    from '../images/ЕВ.jpeg'
+import todoImage from '../images/ЕВ.jpeg'
 import skillRealImage from '../images/UNADJUSTEDNONRAW_thumb_54d.jpg'
 import rgbImage from '../images/rgb.jpg'
 import snakeImage from '../images/istockphoto-1363586427-612x612.jpg'
