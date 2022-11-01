@@ -13,15 +13,15 @@ const Footer = (props: any) => {
 
     return (
         <div className={classes.footer} style={props.footerColor}>
-            <div className={classes.socialIcon}>
-                <div className={classes.socialIcon}><FontAwesomeIcon
-                    icon={faFacebookF}/></div>
-                <div className={classes.socialIcon}><FontAwesomeIcon
-                    icon={faInstagram}/></div>
-                <div className={classes.socialIcon}><FontAwesomeIcon
-                    icon={faLinkedin}/></div>
+            {/*<div className={classes.socialIcon}>*/}
+            {/*    <div className={classes.socialIcon}><FontAwesomeIcon*/}
+            {/*        icon={faFacebookF}/></div>*/}
+            {/*    <div className={classes.socialIcon}><FontAwesomeIcon*/}
+            {/*        icon={faInstagram}/></div>*/}
+            {/*    <div className={classes.socialIcon}><FontAwesomeIcon*/}
+            {/*        icon={faLinkedin}/></div>*/}
 
-            </div>
+            {/*</div>*/}
             <div className={classes.signature}>
                 <p> Mikhail Romanov &#169; {year} </p>
 
