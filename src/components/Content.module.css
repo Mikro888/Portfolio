@@ -18,25 +18,41 @@
 
 }
 
+
 .description {
-    width: 25%;
-    height: 80px;
-    height: 80px;
-    min-width: 250px;
+    width: 50%;
+    min-height: 80px;
+    min-width: 380px;
     text-align: center;
     align-self: center;
     padding: 8px;
-    /*font-family: "ui-rounded", sans-serif;*/
     font-weight: bold;
-    font-size: 22px;
+    font-size: 20px;
 }
-
+.description span{
+    color:#003eee;
+}
+.description button{
+    width: 120px;
+    height: 40px;
+    background: #3FD2C7;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    font-weight: bolder;
+    font-size: 14px;
+}
+.description button:hover{
+    cursor: pointer;
+    transform: scale(1.01);
+    box-shadow: 3px 3px 8px grey;
+}
 .mainCon {
     display: flex;
     /*margin-top: 70px;*/
     justify-content: space-around;
     flex-wrap: wrap;
-    width: 95%;
+    width: 100%;
     margin: 100px auto 40px auto;
 
 }
@@ -57,11 +73,12 @@ a {
 .card {
     border: 1px solid white;
     overflow: hidden;
-    width: 300px;
-    height: 300px;
+    width: 280px;
+    height: 280px;
     background-color: white;
     /*opacity: 0.3;*/
-    margin: 0 10px;
+    margin-top: 20px;
+    border-radius: 8px;
 
 }
 .card img{
@@ -130,13 +147,13 @@ a {
     transition: all ease-in 0.2s;
 }
 
-/*.projectCon:hover{*/
-/*    transform: scale(1.02);*/
-
-/*}*/
+.projectCon:hover{
+    transform: scale(1.02);
+    box-shadow: 3px 3px 8px grey;
+}
 
 .projectCon:after {
-    background-color: #99DDFF;
+    /*background-color: #99DDFF;*/
     background-color: black;
     opacity: 0.1;
     content: '';
@@ -150,6 +167,7 @@ a {
 
 .projectCon:hover:after {
     opacity: 0;
+
 }
 
 /*.projectCon:hover{*/
@@ -214,9 +232,39 @@ a {
     margin: 0 auto 20px;
     text-align: center;
 }
+@media (max-width: 1000px) {
+    .card{
+        margin-top: 35px;
+        width: 180px;
+        height: 180px;
+    }
+    .card img{
+        bottom:100px;
+    }
+}
+@media (max-width: 900px) {
+    .card{
+       display: none;
+    }
+    .card img{
+        bottom:100px;
+    }
+}
+
 
 @media (max-width: 700px) {
     .content {
         width: 100%;
     }
+    .description{
+        margin-top: 14px;
+        width: 100%;
+    }
+    .card {
+        position: absolute;
+        top:5%;
+        left: 5%;
+        display: block;
+    }
+
 }
