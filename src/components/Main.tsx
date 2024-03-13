@@ -18,12 +18,9 @@ const Main=(props:any)=> {
 
 <div className={classes.mainCon}>
             <div className={classes.description}>
-              <p>Привет!
-                  Я Михаил Романов, начинающий фронтенд разработчик, увлеченный <span>JavaScript</span>.
-                Мой основной стек - связка <span>React-Redux</span>, позволяющая создавать быстрые интерактивные web-приложения.
-                  Если вы ищете разработчика, готового компенсировать недостаток опыта усердием,
-                  трудолюбием и живым интересом - буду рад присоединиться к вашей команде! </p>
-                <a href={'https://hh.ru/resume/fdc2b1b0ff0833659f0039ed1f566559775146'}><button>Мое резюме</button></a>
+              <p>Hi! My name is Mikhail Romanov, I am a frontend developer who is passionate about JavaScript. 
+                  My main tech stack is <span>React-Redux</span> combination which allows to build fast interactive web applications.</p>
+                <a href={'https://hh.ru/resume/fdc2b1b0ff0833659f0039ed1f566559775146'}><button>My CV</button></a>
             </div>
             <div className={classes.card}>
                 <img src={faceImage} alt="my smiling face"/>
