@@ -7,8 +7,8 @@ const Contacts=()=> {
         <div className={classes.contacts} id="contacts">
 <h2>Contacts</h2>
             <div className={classes.contacts}>
-                <p>w38@bk.ru</p>
-                <p>593 324 738</p>
+                <p>mikro1980@icloud.com</p>
+                <p>055-77-013-97</p>
             </div>
 
         </div>
